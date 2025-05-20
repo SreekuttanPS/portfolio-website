@@ -9,8 +9,8 @@ const jsonLdPerson = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Sreekuttan PS",
-  url: "https://sreekuttan-ps.netlify.app",
-  image: "https://sreekuttan-ps.netlify.app/preview.webp",
+  url: "https://sreekuttan.netlify.app/",
+  image: "https://sreekuttan.netlify.app/preview.webp",
   jobTitle: "Frontend Developer",
   description: "Frontend developer crafting sleek, high-performance web apps using modern tech.",
   sameAs: [
@@ -21,7 +21,7 @@ const jsonLdPerson = {
   knowsAbout: ["Frontend Development", "React", "Next.js", "JavaScript", "TypeScript"],
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://sreekuttan-ps.netlify.app",
+    "@id": "https://sreekuttan.netlify.app",
   },
 };
 
@@ -29,10 +29,10 @@ const jsonLdWebsite = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "Sreekuttan PS Portfolio",
-  url: "https://sreekuttan-ps.netlify.app",
+  url: "https://sreekuttan.netlify.app",
   potentialAction: {
     "@type": "SearchAction",
-    target: "https://sreekuttan-ps.netlify.app/?q={search_term_string}",
+    target: "https://sreekuttan.netlify.app/?q={search_term_string}",
     "query-input": "required name=search_term_string",
   },
 };
@@ -45,7 +45,7 @@ const jsonLdBreadcrumb = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://sreekuttan-ps.netlify.app",
+      item: "https://sreekuttan.netlify.app",
     },
   ],
 };
@@ -66,10 +66,10 @@ export const metadata = {
     title: "Sreekuttan PS | Frontend Developer Portfolio",
     description:
       "Frontend developer crafting sleek, high-performance web apps using modern tech. Check out my page.",
-    url: "https://sreekuttan-ps.netlify.app",
+    url: "https://sreekuttan.netlify.app",
     images: [
       {
-        url: "https://sreekuttan-ps.netlify.app/preview.webp",
+        url: "https://sreekuttan.netlify.app/preview.webp",
         width: 800,
         height: 600,
       },
@@ -80,10 +80,10 @@ export const metadata = {
     card: "summary_large_image",
     title: "Sreekuttan PS | Fullstack Developer Portfolio",
     description: "Fullstack dev building sleek, modern apps. Check out my projects and skills.",
-    images: ["https://sreekuttan-ps.netlify.app/preview.png"],
+    images: ["https://sreekuttan.netlify.app/preview.png"],
   },
   alternates: {
-    canonical: "https://sreekuttan-ps.netlify.app",
+    canonical: "https://sreekuttan.netlify.app",
   },
 };
 
