@@ -5,7 +5,7 @@ import Footer from "@/app/Components/Footer";
 
 const geistSans = Geist({ subsets: ["latin"] });
 
-const jsonLd = {
+const jsonLdPerson = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Sreekuttan PS",
@@ -23,6 +23,31 @@ const jsonLd = {
     "@type": "WebPage",
     "@id": "https://sreekuttan-ps.netlify.app",
   },
+};
+
+const jsonLdWebsite = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Sreekuttan PS Portfolio",
+  url: "https://sreekuttan-ps.netlify.app",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: "https://sreekuttan-ps.netlify.app/?q={search_term_string}",
+    "query-input": "required name=search_term_string",
+  },
+};
+
+const jsonLdBreadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://sreekuttan-ps.netlify.app",
+    },
+  ],
 };
 
 export const metadata = {
@@ -73,9 +98,13 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(jsonLd),
+            __html: JSON.stringify(jsonLdPerson),
           }}
         />
+        <script type="application/ld+json">
+          {JSON.stringify(jsonLdWebsite)}
+        </script>
+        <script type="application/ld+json">{JSON.stringify(jsonLdBreadcrumb)}</script>
       </head>
       <body className={`${geistSans.className} antialiased`}>
         <Header />
