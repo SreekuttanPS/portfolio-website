@@ -5,6 +5,26 @@ import Footer from "@/app/Components/Footer";
 
 const geistSans = Geist({ subsets: ["latin"] });
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Sreekuttan PS",
+  url: "https://sreekuttan-ps.netlify.app",
+  image: "https://sreekuttan-ps.netlify.app/preview.webp",
+  jobTitle: "Frontend Developer",
+  description: "Frontend developer crafting sleek, high-performance web apps using modern tech.",
+  sameAs: [
+    "https://github.com/sreekuttanPS",
+    "https://www.linkedin.com/in/sreekuttan-p-s",
+    "https://www.instagram.com/zavian_._/",
+  ],
+  knowsAbout: ["Frontend Development", "React", "Next.js", "JavaScript", "TypeScript"],
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://sreekuttan-ps.netlify.app",
+  },
+};
+
 export const metadata = {
   title: "Sreekuttan PS | Frontend Developer Portfolio",
   description:
@@ -49,6 +69,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLd),
+          }}
+        />
+      </head>
       <body className={`${geistSans.className} antialiased`}>
         <Header />
         {children}
