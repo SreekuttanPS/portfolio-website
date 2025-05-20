@@ -5,6 +5,7 @@
 :root {
   --text-primary: #121212;
   --text-secondary: #4b5563;
+  --text-tertiary: #7f7f7f;
   --bg-primary: #ffffff;
   --bg-secondary: #f9fafb;
   --bg-tertiary: #dadada;
@@ -15,9 +16,10 @@
 .dark {
   --text-primary: #ffffff;
   --text-secondary: #9ca3af;
+  --text-tertiary: #7f7f7f;
   --bg-primary: #121212;
   --bg-secondary: #1f2937;
-  --bg-tertiary: #031836;
+  --bg-tertiary: #121212;
   --accent: #3b82f6;
   --border: #374151;
 }
@@ -75,38 +77,6 @@ body {
 
 .timeline-item:last-child::after {
   display: none;
-}
-
-.project-card {
-  position: relative;
-  overflow: hidden;
-  border-radius: 0.5rem;
-  background-color: var(--bg-secondary);
-  transition: transform 0.3s;
-}
-
-.project-card:hover {
-  transform: translateY(-0.25rem);
-}
-
-.project-card:hover .project-overlay {
-  opacity: 1;
-}
-
-.project-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  transition: opacity 0.3s;
-  padding: 1.5rem;
 }
 
 .skill-item {
@@ -199,6 +169,10 @@ input[type="checkbox"]:checked::after {
 
 .text-secondary-color {
   color: var(--text-secondary)
+}
+
+.text-tertiary-color {
+  color: var(--text-tertiary);
 }
 
 .bg-primary-background {

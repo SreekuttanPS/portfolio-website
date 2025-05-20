@@ -1,13 +1,9 @@
 const HomeSection = () => (
   <section
-    className="relative min-h-screen flex items-center py-20 px-6"
+    className="bg-[url('/images/portfolio-image-2.webp')] bg-contain bg-no-repeat bg-cover relative min-h-screen flex items-center py-20 px-6"
     id="hero"
-    style={{
-      backgroundImage:
-        "url('https://readdy.ai/api/search-image?query=minimalist%20abstract%20background%20with%20subtle%20geometric%20shapes%2C%20clean%20design%2C%20soft%20gradients%2C%20professional%20portfolio%20aesthetic%2C%20light%20and%20airy%20feel%2C%20elegant%20and%20sophisticated&width=1920&height=1080&seq=1&orientation=landscape')",
-    }}
   >
-    <div className="absolute inset-0 bg-gradient-to-r from-white/90 to-white/50 dark:from-black/90 dark:to-black/50"></div>
+    <div className="absolute inset-0 bg-gradient-to-r from-white/70 to-white/70 dark:from-black/30 dark:to-black/30"></div>
     <div className="container mx-auto relative z-10">
       <div className="max-w-2xl">
         <h1 className="text-5xl md:text-6xl font-bold mb-4 text-primary-color">Sreekuttan P S</h1>
@@ -23,12 +19,14 @@ const HomeSection = () => (
           <a
             href="#projects"
             className="px-6 py-3 bg-primary text-white font-medium !rounded-button whitespace-nowrap transition-transform hover:transform hover:scale-105"
+            aria-label="View My Work"
           >
             View My Work
           </a>
           <a
             href="#contact"
             className="px-6 py-3 border font-medium !rounded-button whitespace-nowrap transition-transform hover:transform hover:scale-105 text-primary-color border-color"
+            aria-label="Get In Touch"
           >
             Get In Touch
           </a>

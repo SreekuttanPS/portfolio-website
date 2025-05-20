@@ -18,6 +18,8 @@ export default function Footer() {
             <a
               href="https://github.com/sreekuttanPS"
               target="_blank"
+              aria-label="Github"
+              rel="noopener noreferrer"
               className="w-8 h-8 flex items-center justify-center rounded-full transition-colors bg-secondary-background"
             >
               <GithubIcon />
@@ -25,6 +27,8 @@ export default function Footer() {
             <a
               href="https://www.linkedin.com/in/sreekuttan-p-s"
               target="_blank"
+              aria-label="LinkedIn"
+              rel="noopener noreferrer"
               className="w-8 h-8 flex items-center justify-center transition-colors"
             >
               <LinkedInIcon />
@@ -32,6 +36,8 @@ export default function Footer() {
             <a
               href="https://www.instagram.com/zavian_._/"
               target="_blank"
+              aria-label="Instagram"
+              rel="noopener noreferrer"
               className="w-8 h-8 flex items-center justify-center rounded-full transition-colors"
             >
               <InstagramIcon />

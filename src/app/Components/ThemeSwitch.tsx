@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import DarkThemeIcon from "../SVG/DarkThemeIcon";
+import LightThemeIcon from "../SVG/LightThemeIcon";
 
 const ThemeSwitch = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
@@ -27,8 +28,8 @@ const ThemeSwitch = () => {
   };
 
   return (
-    <div>
-      <DarkThemeIcon />
+    <div className="flex items-center gap-2">
+      <LightThemeIcon />
       <div className="theme-switch cursor-pointer" id="themeSwitch" onClick={toggleTheme}>
         <div
           className="theme-switch-handle"
@@ -38,6 +39,7 @@ const ThemeSwitch = () => {
           }}
         />
       </div>
+          <DarkThemeIcon />
     </div>
   );
 };

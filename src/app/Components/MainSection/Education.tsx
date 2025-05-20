@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = () => {
   return (
-    <section className="py-20 px-6 reveal" id="education">
+    <section className="py-20 px-6 reveal bg-tertiary-background" id="education">
       <div className="container mx-auto">
         <h2 className="section-title text-3xl font-bold text-primary-color">
           Education

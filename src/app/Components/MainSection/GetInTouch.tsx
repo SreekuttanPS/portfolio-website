@@ -32,7 +32,7 @@ function GetInTouch() {
                 <h3 className="font-medium mb-1 text-primary-color">
                   Location
                 </h3>
-                <p className="bg-secondary-background">Kochi, India</p>
+                <p className="bg-secondary-background text-tertiary-color">Kochi, India</p>
               </div>
             </div>
 
@@ -46,7 +46,7 @@ function GetInTouch() {
                 <h3 className="font-medium mb-1 text-primary-color">
                   Email
                 </h3>
-                <p className="bg-secondary-background">sreekuttansrk7@gmail.com</p>
+                <p className="bg-secondary-background text-tertiary-color">sreekuttansrk7@gmail.com</p>
               </div>
             </div>
 
@@ -60,7 +60,7 @@ function GetInTouch() {
                 <h3 className="font-medium mb-1 text-primary-color">
                   Phone
                 </h3>
-                <p className="bg-secondary-background">+91 9895132236</p>
+                <p className="bg-secondary-background text-tertiary-color">+91 9895132236</p>
               </div>
             </div>
           </div>

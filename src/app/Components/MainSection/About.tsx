@@ -13,8 +13,9 @@ function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="overflow-hidden rounded-lg">
             <Image
-              src="/images/imagetouse.png"
+              src="/images/portfolio-image-1.webp"
               alt="Portfoilo Image"
+              loading="lazy"
               width={600}
               height={800}
               className="w-full h-auto object-cover max-h-120"
@@ -46,6 +47,8 @@ function About() {
                 href="https://github.com/sreekuttanPS"
                 target="_blank"
                 className="w-10 h-10 flex items-center justify-center rounded-full transition-colors bg-primary-background"
+                rel="noopener noreferrer"
+                aria-label="Github"
               >
                 <GithubIcon />
               </a>
@@ -53,6 +56,8 @@ function About() {
                 href="https://www.linkedin.com/in/sreekuttan-p-s"
                 target="_blank"
                 className="w-10 h-10 flex items-center justify-center rounded-full transition-colors bg-primary-background"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
               >
                 <LinkedInIcon />
               </a>
@@ -60,6 +65,8 @@ function About() {
                 href="https://www.instagram.com/zavian_._/"
                 target="_blank"
                 className="w-10 h-10 flex items-center justify-center rounded-full transition-colors bg-primary-background"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
               >
                 <InstagramIcon />
               </a>

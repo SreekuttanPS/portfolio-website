@@ -1,6 +1,8 @@
+import dynamic from 'next/dynamic';
+const AnimationOnScroll = dynamic(() => import('@/app/Components/MainSection/AnimationOnScroll'));
+
 import HomeSection from "@/app/Components/MainSection/HomeSection";
 import About from "@/app/Components/MainSection/About";
-import AnimationOnScroll from "@/app/Components/MainSection/AnimationOnScroll";
 import Education from "@/app/Components/MainSection/Education";
 import Projects from "@/app/Components/MainSection/Projects";
 import Skills from "@/app/Components/MainSection/Skills";
