@@ -14,7 +14,8 @@ function GetInTouch() {
           Get In Touch
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-12"> */}
+        <div className="">
           <div>
             <p className="text-lg mb-6 leading-relaxed text-primary-color">
               I&apos;m always open to discussing new projects, creative ideas, or opportunities to be
@@ -64,7 +65,7 @@ function GetInTouch() {
               </div>
             </div>
           </div>
-
+{/* 
           <form>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
               <div>
@@ -154,7 +155,7 @@ function GetInTouch() {
             >
               Send Message
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>
