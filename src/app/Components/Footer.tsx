@@ -7,7 +7,7 @@ export default function Footer() {
   const year = currentDate?.getFullYear();
 
   return (
-    <footer className="py-8 px-6 border-t border-color">
+    <footer className="py-8 px-6 border-t border-color bg-primary-background">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm mb-4 md:mb-0 text-secondary-color">
@@ -20,7 +20,7 @@ export default function Footer() {
               target="_blank"
               aria-label="Github"
               rel="noopener noreferrer"
-              className="w-8 h-8 flex items-center justify-center rounded-full transition-colors bg-secondary-background"
+              className="w-8 h-8 flex items-center justify-center rounded-full transition-colors bg-secondary-background hover:scale-130 hover:transform"
             >
               <GithubIcon />
             </a>
@@ -29,7 +29,7 @@ export default function Footer() {
               target="_blank"
               aria-label="LinkedIn"
               rel="noopener noreferrer"
-              className="w-8 h-8 flex items-center justify-center transition-colors"
+              className="w-8 h-8 flex items-center justify-center transition-colors hover:scale-130 hover:transform"
             >
               <LinkedInIcon />
             </a>
@@ -38,7 +38,7 @@ export default function Footer() {
               target="_blank"
               aria-label="Instagram"
               rel="noopener noreferrer"
-              className="w-8 h-8 flex items-center justify-center rounded-full transition-colors"
+              className="w-8 h-8 flex items-center justify-center rounded-full transition-colors hover:scale-130 hover:transform"
             >
               <InstagramIcon />
             </a>

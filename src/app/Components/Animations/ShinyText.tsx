@@ -1,0 +1,20 @@
+interface ShinyTextProps {
+    text: string;
+    speed?: number;
+    className?: string;
+}
+
+const ShinyText: React.FC<ShinyTextProps> = ({ text, speed = 5, className = '' }) => {
+    const animationDuration = `${speed}s`;
+
+    return (
+        <div
+            className={`shiny-text ${className}`}
+            style={{ animationDuration }}
+        >
+            {text}
+        </div>
+    );
+};
+
+export default ShinyText;

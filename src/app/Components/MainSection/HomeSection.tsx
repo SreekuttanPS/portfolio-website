@@ -1,3 +1,5 @@
+import ShinyText from "@/app/Components/Animations/ShinyText";
+
 const HomeSection = () => (
   <section
     className="bg-[url('/images/portfolio-image-2.webp')] bg-contain bg-no-repeat bg-cover relative min-h-screen flex items-center py-20 px-6"
@@ -15,20 +17,20 @@ const HomeSection = () => (
           responsive, and high-performance web applications. I specialize in modern JavaScript,
           React, and component-based architectures to deliver seamless user experiences.
         </p>
-        <div className="flex flex-wrap gap-4">
+        <div className="flex gap-4 items-center justify-center md:flex-row flex-col">
           <a
             href="#projects"
-            className="px-6 py-3 bg-primary text-white font-medium !rounded-button whitespace-nowrap transition-transform hover:transform hover:scale-105"
+            className="shiny-button hover:transform hover:scale-105"
             aria-label="View My Work"
           >
-            View My Work
+            <ShinyText text="View My Work" speed={3} className='custom-class' />
           </a>
           <a
             href="#contact"
-            className="px-6 py-3 border font-medium !rounded-button whitespace-nowrap transition-transform hover:transform hover:scale-105 text-primary-color border-color"
+            className="shiny-button hover:transform hover:scale-105"
             aria-label="Get In Touch"
           >
-            Get In Touch
+            <ShinyText text="Get In Touch" speed={3} className='custom-class' />
           </a>
         </div>
       </div>
