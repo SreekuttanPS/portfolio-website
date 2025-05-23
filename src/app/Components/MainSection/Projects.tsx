@@ -32,7 +32,7 @@ function Projects() {
                 <div className="container px-14">
                   <div className="flex flex-col items-center justify-center gap-4 mb-4">
                     <a
-                      href="https://master--deft-rabanadas-fe321a.netlify.app/"
+                      href="https://movie-hunter-omdb.netlify.app/"
                       className="shiny-button hover:transform hover:scale-105 w-full text-center"
                       aria-label="View Demo"
                       rel="noopener noreferrer"
