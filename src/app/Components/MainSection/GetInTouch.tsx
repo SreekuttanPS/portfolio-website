@@ -47,7 +47,7 @@ function GetInTouch() {
                 <h3 className="font-medium mb-1 text-primary-color">
                   Email
                 </h3>
-                <p className="bg-secondary-background text-tertiary-color">sreekuttansrk7@gmail.com</p>
+                <p className="bg-secondary-background text-tertiary-color">sreekuttan.workmail@gmail.com</p>
               </div>
             </div>
 
