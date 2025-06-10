@@ -43,6 +43,21 @@ function Skills() {
               <div
                 className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
               >
+                <span>Tailwind</span>
+              </div>
+              <div
+                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
+              >
+                <span>Redux</span>
+              </div>
+              <div
+                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
+              >
+                <span>UI/UX</span>
+              </div>
+              <div
+                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
+              >
                 <span>Responsive Design</span>
               </div>
             </div>
