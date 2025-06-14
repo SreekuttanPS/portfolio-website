@@ -19,7 +19,7 @@ function GetInTouch() {
           <div>
             <p className="text-lg mb-6 leading-relaxed text-primary-color">
               I&apos;m always open to discussing new projects, creative ideas, or opportunities to be
-              part of your vision. Feel free to reach out using the form or through my social media
+              part of your vision. Feel free to reach out through my social media
               profiles.
             </p>
 
