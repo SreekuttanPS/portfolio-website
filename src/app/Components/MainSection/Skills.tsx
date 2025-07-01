@@ -33,6 +33,21 @@ function Skills() {
               <div
                 className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
               >
+                <span>Node.js</span>
+              </div>
+              <div
+                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
+              >
+                <span>Express js</span>
+              </div>
+              <div
+                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
+              >
+                <span>MongoDB</span>
+              </div>
+              <div
+                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
+              >
                 <span>HTML5</span>
               </div>
               <div
