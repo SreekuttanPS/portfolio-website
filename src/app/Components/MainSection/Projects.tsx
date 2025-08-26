@@ -91,7 +91,7 @@ function Projects() {
                 <div className="container px-14">
                   <div className="flex flex-col items-center justify-center gap-4 mb-4">
                     <a
-                      href="https://movie-hunter-omdb.netlify.app/"
+                      href="https://just-chat-next.vercel.app/"
                       className="shiny-button hover:transform hover:scale-105 w-full text-center"
                       aria-label="View Demo"
                       rel="noopener noreferrer"
@@ -104,7 +104,7 @@ function Projects() {
                       />
                     </a>
                     <a
-                      href="https://github.com/SreekuttanPS/omdb-movie-search"
+                      href="https://github.com/SreekuttanPS/just-chat-next"
                       className="shiny-button hover:transform hover:scale-105 w-full text-center"
                       aria-label="View Code"
                       rel="noopener noreferrer"
