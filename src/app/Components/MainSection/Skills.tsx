@@ -10,69 +10,46 @@ function Skills() {
         <div className="space-y-12">
           <div>
             <div className="flex flex-wrap gap-3">
-              <div
-                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105  w-auto theme-switch-color"
-              >
+              <div className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105  w-auto theme-switch-color">
                 <span>JavaScript</span>
               </div>
-              <div
-                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
-              >
+              <div className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color">
                 <span>TypeScript</span>
               </div>
-              <div
-                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
-              >
+              <div className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color">
                 <span>React</span>
               </div>
-              <div
-                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
-              >
+              <div className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color">
                 <span>Next.js</span>
               </div>
-              <div
-                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
-              >
+              <div className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color">
                 <span>Node.js</span>
               </div>
-              <div
-                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
-              >
+              <div className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color">
                 <span>Express js</span>
               </div>
-              <div
-                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
-              >
+              <div className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color">
                 <span>MongoDB</span>
               </div>
-              <div
-                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
-              >
+              <div className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color">
                 <span>HTML5</span>
               </div>
-              <div
-                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
-              >
+              <div className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color">
                 <span>CSS</span>
               </div>
-              <div
-                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
-              >
+              <div className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color">
                 <span>Tailwind</span>
               </div>
-              <div
-                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
-              >
+              <div className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color">
+                <span>Socket.io</span>
+              </div>
+              <div className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color">
                 <span>Redux</span>
               </div>
-              <div
-                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
-              >
+              <div className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color">
                 <span>UI/UX</span>
               </div>
-              <div
-                className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color"
-              >
+              <div className="px-4 py-2 rounded-lg flex items-center gap-2 transition-transform hover:transform hover:scale-105 w-auto theme-switch-color">
                 <span>Responsive Design</span>
               </div>
             </div>
