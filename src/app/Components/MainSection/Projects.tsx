@@ -121,6 +121,49 @@ function Projects() {
               </div>
             </PixelCard>
           </div>
+          <div className="w-fit hover:scale-102 hover:transform hover:shadow-lg rounded-3xl">
+            <PixelCard>
+              <div className="absolute">
+                <h3 className="text-xl font-semibold mb-2 text-white text-center mt-2 text-primary-color">
+                  Pastry Cocoon Cakes (Freelance)
+                </h3>
+                <p className="text-sm text-gray-300 mb-4 text-center text-primary-color">
+                  A cake service brochure.
+                </p>
+                <div className="flex flex-wrap justify-center gap-2 mb-4">
+                  <span className="px-2 py-1 text-xs font-medium bg-blue-500/20 text-blue-200 rounded-full text-primary-color">
+                    Next.JS
+                  </span>
+                  <span className="px-2 py-1 text-xs font-medium bg-green-500/20 text-green-200 rounded-full text-primary-color">
+                    MongoDB
+                  </span>
+                  <span className="px-2 py-1 text-xs font-medium bg-purple-500/20 text-purple-200 rounded-full text-primary-color">
+                    Framer Motion
+                  </span>
+                  <span className="px-2 py-1 text-xs font-medium bg-purple-500/20 text-purple-200 rounded-full text-primary-color">
+                    Cloudinary
+                  </span>
+                </div>
+                <div className="container px-14">
+                  <div className="flex flex-col items-center justify-center gap-4 mb-4">
+                    <a
+                      href="https://pastrycocoon.vercel.app/"
+                      className="shiny-button hover:transform hover:scale-105 w-full text-center"
+                      aria-label="View Site"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <ShinyText
+                        text="View Site"
+                        speed={3}
+                        className="custom-class"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </PixelCard>
+          </div>
         </div>
       </div>
     </section>
